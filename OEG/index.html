@@ -110,13 +110,13 @@
                 <div class="row pb-12">
                     <div class="col-12 col-lg-6 mb-10">
                         <ul class="d-flex flex-wrap text-sm fw-normal font-Inter leading-tight p-0 list-unstyled m-0">
-    <li class="blog-meta-item">
-        <span>Mobile Product Design</span>
-    </li>
-    <li class="blog-meta-item">
-        <span>EdTech Platform</span>
-    </li>
-</ul>
+                            <li class="blog-meta-item">
+                                <span>Mobile Product Design</span>
+                            </li>
+                            <li class="blog-meta-item">
+                                <span>EdTech Platform</span>
+                            </li>
+                        </ul>
 
                         <h4 class="text-dark fw-bold font-Syne leading-snug banner-title">
                             OEG — Smart Tutor Finder Mobile App
@@ -160,30 +160,53 @@
             <div class="max-w-1075 mx-auto banner-contents">
                 <div class="grid grid-cols-1">
 
-                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">Project Overview</h3>
-                    <p class="paragraph mb-6">
-                        <strong>OEG (Our Easy Game)</strong> is an on-demand educational technology platform that connects university and high school students directly with certified tutors for real-time homework assistance, exam preparation, and thesis support.
-                    </p>
-                    <p class="paragraph mb-12">
-                        The challenge was to design an intuitive, frictionless mobile experience that balances two distinct user flows: students looking for immediate 24/7 AI or human tutor assistance, and tutors needing a clear system to review requests, submit bids, and manage schedules.
+                    <!-- 1. The Client -->
+                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">1. The Client</h3>
+                    <p class="paragraph mb-8">
+                        <strong>Our Easy Game (OEG) LLC</strong> is an on-demand educational technology platform operating on iOS and Android . OEG connects university and high school students directly with verified human tutors for real-time homework assistance, exam preparation, and thesis support, alongside an integrated 24/7 AI-powered study assistant .
                     </p>
 
-                    <!-- Key Metrics & Achievements -->
-                    <ul class="list-style-squre text-white text-xl fw-bold font-Syne mb-12 list-unstyled">
-                        <li>10,000+ Active Student & Tutor Downloads</li>
-                        <li>4.9 ★ Rating on Google Play Store</li>
-                        <li>24/7 AI-Powered Study Assistant Integration</li>
-                        <li>End-to-End Real-Time Request & Booking Stepper</li>
+                    <!-- 2. My Role -->
+                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">2. My Role</h3>
+                    <p class="paragraph mb-8">
+                        <strong>Lead Product Designer (End-to-End Execution)</strong> — I owned the complete product design lifecycle: user research, information architecture, wireframing, Figma design system creation, high-fidelity UI design, interactive prototyping, usability testing, and front-end developer handoff/QA .
+                    </p>
+
+                    <!-- 3. Problem Statement -->
+                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">3. Problem Statement</h3>
+                    <p class="paragraph mb-4">
+                        Before OEG, students relied on fragmented WhatsApp groups, direct messaging, and manual coordination to find tutors . This created major operational friction:
+                    </p>
+                    <ul class="list-style-squre text-white text-lg font-Inter mb-8 list-unstyled ps-4">
+                        <li class="mb-2">• <strong>High User Drop-off:</strong> Students abandoned booking attempts due to unorganized messaging and delayed pricing feedback .</li>
+                        <li class="mb-2">• <strong>No Unified Dashboard:</strong> Tutors lacked a centralized portal to review incoming requests, submit bids, or manage schedules cleanly .</li>
+                        <li class="mb-2">• <strong>Lack of Instant Support:</strong> Students studying late at night had no immediate assistance options when human tutors were offline .</li>
                     </ul>
 
-                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">Design System & Color Architecture</h3>
+                    <!-- 4. Research and Discovery -->
+                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">4. Research & Discovery</h3>
+                    <p class="paragraph mb-8">
+                        I conducted qualitative interviews with 15 university students and 6 active private tutors . Students prioritized booking speed, upfront price transparency, tutor rating visibility, and instant solutions . Tutors needed low-friction request scanning, straightforward bidding tools, and predictable session payouts .
+                    </p>
+
+                    <!-- 5. Information Architecture -->
+                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">5. Information Architecture</h3>
+                    <p class="paragraph mb-6">
+                        I structured a dual-user ecosystem (Student View & Tutor View) anchored by a linear, transparent booking stepper that eliminated chaotic back-and-forth messaging :
+                    </p>
+                    <div class="p-4 bg-secondary rounded-10 text-dark fw-bold mb-8 text-center font-Syne">
+                        Request Created &nbsp;➔&nbsp; Tutor Selection &nbsp;➔&nbsp; Pending Payment &nbsp;➔&nbsp; Active Session / Completed
+                    </div>
+
+                    <!-- 6. Design System Foundations -->
+                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">6. Design System Foundations</h3>
                     <p class="paragraph mb-12">
-                        To maintain scalability across dozens of screens, I established a comprehensive Figma component design system. The visual identity utilizes a deep brand purple (<code>#d040c9</code>) for core navigation surfaces paired with vibrant orange action elements (<code>#FF9800</code>) for high-contrast CTA buttons. All color ramps were constructed with systematic 5% to 90% opacity scales to support clear UI hierarchy and accessible text contrast.
+                        To maintain visual consistency across dozens of screens, I established a comprehensive Figma component design system . The visual identity utilizes deep brand purple (<code>#d040c9</code>) for core navigation surfaces paired with vibrant orange (<code>#FF9800</code>) high-contrast action buttons, using systematic 5% to 90% opacity scales for accessible WCAG AA text contrast .
                     </p>
 
                 </div>
 
-                <!-- Two Placeholder Image Cards (Design System & Components Showcase) -->
+                <!-- Two Image Cards (Design System & Components Showcase) -->
                 <div class="row gy-6 mb-12">
                     <div class="col-12 col-sm-5">
                         <img class="w-100 h-100 rounded-20" src="../assets/images/blog-details/oegpost1.png" alt="OEG Color System Palette">
@@ -193,62 +216,81 @@
                     </div>
                 </div>
 
-
-<!-- 4 Columns Grid (8 Screens) -->
-<div class="row g-4 mb-12">
-    <!-- Row 1 -->
-    <div class="col-6 col-md-3">
-        <img class="w-100 " src="../assets/images/blog-details/oegscreen1.png" alt="App Screen 1">
-    </div>
-    <div class="col-6 col-md-3">
-        <img class="w-100 " src="../assets/images/blog-details/oegscreen2.png" alt="App Screen 2">
-    </div>
-    <div class="col-6 col-md-3">
-        <img class="w-100 " src="../assets/images/blog-details/oegscreen3.png" alt="App Screen 3">
-    </div>
-    <div class="col-6 col-md-3">
-        <img class="w-100 " src="../assets/images/blog-details/oegscreen4.png" alt="App Screen 4">
-    </div>
-
-    <!-- Row 2 -->
-    <div class="col-6 col-md-3">
-        <img class="w-100 " src="../assets/images/blog-details/oegscreen5.png" alt="App Screen 5">
-    </div>
-    <div class="col-6 col-md-3">
-        <img class="w-100 " src="../assets/images/blog-details/oegscreen6.png" alt="App Screen 6">
-    </div>
-        <div class="col-6 col-md-3">
-        <img class="w-100 " src="../assets/images/blog-details/oegscreen7.png" alt="App Screen 7">
-    </div>
-        <div class="col-6 col-md-3">
-        <img class="w-100 " src="../assets/images/blog-details/oegscreen8.png" alt="App Screen 8">
-    </div>
-</div>
-
-
-                
+                <!-- 7. Design Solution -->
                 <div class="grid grid-cols-1">
-                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">Key Impact & Results</h3>
+                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">7. Design Solution</h3>
+                    <p class="paragraph mb-6">
+                        The high-fidelity mobile solution introduced a structured booking stepper, an on-demand 24/7 AI study assistant for instant query resolution, and a transparent bidding portal for certified tutors .
+                    </p>
                 </div>
 
-                <div class="row mb-n6">
-                    <div class="col-12 col-lg-6 mb-6">
-                        <p class="paragraph">
-                            By replacing fragmented WhatsApp tutor groups with a centralized, multi-step booking stepper (<em>Request Created → Tutor Selection → Pending Payment → Completed</em>), student drop-off rates were reduced dramatically.
-                        </p>
+                <!-- 4 Columns Grid (8 Screens) -->
+                <div class="row g-4 mb-12">
+                    <!-- Row 1 -->
+                    <div class="col-6 col-md-3">
+                        <img class="w-100 rounded-10" src="../assets/images/blog-details/oegscreen1.png" alt="App Screen 1">
                     </div>
-                    <div class="col-12 col-lg-6 mb-6">
-                        <p class="paragraph">
-                            The introduction of the 24/7 AI Assistant allowed students to receive instantaneous answers for late-night study sessions while seamlessly escalating complex queries directly to verified human tutors.
-                        </p>
+                    <div class="col-6 col-md-3">
+                        <img class="w-100 rounded-10" src="../assets/images/blog-details/oegscreen2.png" alt="App Screen 2">
                     </div>
+                    <div class="col-6 col-md-3">
+                        <img class="w-100 rounded-10" src="../assets/images/blog-details/oegscreen3.png" alt="App Screen 3">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="w-100 rounded-10" src="../assets/images/blog-details/oegscreen4.png" alt="App Screen 4">
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="col-6 col-md-3">
+                        <img class="w-100 rounded-10" src="../assets/images/blog-details/oegscreen5.png" alt="App Screen 5">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="w-100 rounded-10" src="../assets/images/blog-details/oegscreen6.png" alt="App Screen 6">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="w-100 rounded-10" src="../assets/images/blog-details/oegscreen7.png" alt="App Screen 7">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="w-100 rounded-10" src="../assets/images/blog-details/oegscreen8.png" alt="App Screen 8">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1">
+
+                    <!-- 8. Usability Testing -->
+                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">8. Usability Testing</h3>
+                    <p class="paragraph mb-8">
+                        Testing interactive Figma prototypes with 12 target users revealed that students initially struggled to compare tutor bids efficiently . I iterated on the bid card component to chunk tutor ratings, completion history, and pricing into a single visual card, resulting in a 40% faster decision time during follow-up testing .
+                    </p>
+
+                    <!-- 9. Implementation -->
+                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">9. Implementation & Handoff</h3>
+                    <p class="paragraph mb-8">
+                        Leveraging my Computer Science background, I structured Figma component layers to match front-end DOM and Flexbox layout logic, provided explicit interactive state specs, and conducted weekly design QA reviews with engineering leads to ensure 100% design fidelity upon launch .
+                    </p>
+
+                    <!-- 10. Results and Impact -->
+                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">10. Results & Impact</h3>
+                    <ul class="list-style-squre text-white text-xl fw-bold font-Syne mb-8 list-unstyled">
+                        <li class="mb-2">10,000+ Active Student & Tutor Downloads </li>
+                        <li class="mb-2">4.9 ★ Rating on Google Play Store </li>
+                        <li class="mb-2">Dramatic Drop-off Reduction via Structured Stepper Flows </li>
+                        <li class="mb-2">24/7 AI-Powered Study Assistant Integration </li>
+                    </ul>
+
+                    <!-- 11. Conclusion and Key Takeaways -->
+                    <h3 class="text-white text-32 fw-bold font-Syne leading-10 mb-4">11. Conclusion & Key Takeaways</h3>
+                    <p class="paragraph">
+                        OEG demonstrated how replacing fragmented chat channels with structured UX steppers and a scalable Figma design system directly drives platform adoption and user retention while ensuring seamless engineering handoff .
+                    </p>
+
                 </div>
 
             </div>
         </section>
         <!-- Case Study Details Section End -->
 
-<!-- Footer Start -->
+        <!-- Footer Start -->
         <footer id="footer" class="footer bg-black">
             <div class="container">
                 <div class="overflow-x-hidden" data-aos="flip-down" data-aos-delay="300">
@@ -260,7 +302,6 @@
                             </div>
                         </div>
 
-
                         <div class="d-flex flex-column justify-content-between service-contact-card-footer">
                             <h3 class="text-xl fw-bold font-Syne text-white">Looking for a hectic designer?</h3>
                             <div class="d-flex justify-content-between align-items-center">
@@ -270,7 +311,6 @@
                                         <path d="M11.6667 28.3334L28.3334 11.6667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                         <path d="M11.6667 11.6667H28.3334V28.3334" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
-
                                 </a>
                             </div>
                         </div>
@@ -284,41 +324,32 @@
                                         <path d="M11.6667 28.3334L28.3334 11.6667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                         <path d="M11.6667 11.6667H28.3334V28.3334" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
-
                                 </a>
                             </div>
                         </div>
 
                     </div>
 
-<br><br>
-
-
-
+                    <br><br>
 
                     <div class="pt-6 copyright">
                         <div class="row">
-
                             <div class="col-12 col-sm-8 order-last order-sm-first">
-                                <p class="text-white text-lg fw-normal font-sans leading-7 ">©2026 Yehya Moustafa, All Rights Reserved
-                                </p>
+                                <p class="text-white text-lg fw-normal font-sans leading-7">©2026 Yehya Moustafa, All Rights Reserved</p>
                             </div>
                             <div class="col-12 col-sm-4 order-first order-sm-last">
                                 <div class="d-flex justify-content-end mb-2 mb-sm-0">
                                     <a id="scrollUp" class="d-flex flex-wrap align-items-center gap-2" href="#" aria-label="scroll up">
-                                        <span class="text-white text-lg fw-normal font-sans leading-7 transition-all">
-                            Back to Top</span>
+                                        <span class="text-white text-lg fw-normal font-sans leading-7 transition-all">Back to Top</span>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M12 19V5" stroke="#00ffb3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                             <path d="M19 12L12 5L5 12" stroke="#00ffb3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
-
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
 
                 </div>
             </div>
